@@ -16,6 +16,7 @@
 
 #include "\z\ace\addons\main\script_macros.hpp"
 
+#define GRAVITY 9.8066
 #define MRAD_TO_MOA(d) (d * 3.43774677) // Conversion factor: 54 / (5 * PI)
 #define MOA_TO_MRAD(d) (d * 0.29088821) // Conversion factor: (5 * PI) / 54
 #define DEG_TO_MOA(d) (d * 60) // Conversion factor: 60
